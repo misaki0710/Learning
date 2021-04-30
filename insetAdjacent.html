@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+  </head>
+  <body>
+    <main>
+      <section>
+        <ul id="list">
+          <li>ほげ</li>
+          <li>ほげ</li>
+        </ul>
+        <button id="btn">click</button>
+      </section>
+    </main>
+    <footer>
+    </footer>
+
+    <script>
+    'use strict';
+    document.getElementById("btn").onclick = function(){
+      document.getElementById("list").insertAdjacentHTML('afterbegin','<li>ふが</li>')
+    }
+    </script>
+
+  </body>
+</html>
