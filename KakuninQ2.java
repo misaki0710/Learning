@@ -1,15 +1,15 @@
 public class KakuninQ2{
 	public static void main(String[] args){
-		System.out.println("Please enter a word.");
-		String moji = new java.util.Scanner(System.in).nextLine();
-		System.out.println("Please enter a nuber you want to repeat.");
-		int kaisu = new java.util.Scanner(System.in).nextInt();
 		
-		mojiPrint(moji,kaisu);
-	}
-	public static void mojiPrint(String moji,int kaisu){
-		for (int i =0; i < kaisu; i++){
-			System.out.println(moji);
-		}
+		
+		Baisu bai = new Baisu();
+		int suchi = 5;
+		
+		//int ni = bai.nibai(2);
+		System.out.println(suchi + " no nibai ha " + bai.nibai(suchi));
+		
+		//int san = bai.sanbai(2);
+		System.out.println(suchi + " no sanbai ha " + bai.sanbai(suchi));
+	
 	}
 }
