@@ -1,0 +1,31 @@
+h1{
+  color : #565656;
+  animation-name: animeTitle;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+table{
+  height: 300px;
+}
+
+
+
+@keyframes animeTitle {
+  0%{
+    font-size:  1em;
+    opacity: 0;
+  }
+  100%{
+    font-size:  3em;
+    opacity: 1;
+  }
+}
+
+.circle{
+  width: 230px;
+  height: 230px;
+  border: 2px dotted #9d8b74;
+  border-radius: 50%;
+}
