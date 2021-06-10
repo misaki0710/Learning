@@ -1,0 +1,72 @@
+.ts{
+  background-color: #eee;
+  font-size: 24px;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.ts01{
+  text-shadow: 2px 2px 3px #999;
+}
+.ts02{
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+}
+.ts03{
+  color: #ccc;
+  text-shadow: -1px -1px 0 #fff,1px 1px 0 #aaa;
+}
+.ts04{
+  color: #ccc;
+  text-shadow: -1px -1px 0 #aaa,1px 1px 0 #fff;
+}
+.ts05{
+  color: #fff;
+  text-shadow:
+    1px 1px 0 #999,
+    -1px 1px 0 #999,
+    1px -1px 0 #999,
+    -1px -1px 0 #999;
+}
+.ts06{
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 13px #f03,
+    0 0 13px #f03,
+    0 0 13px #f03,
+    0 0 13px #f03;
+}
+.ts07{
+  color: #fff;
+  -webkit-text-stroke: 1px #000;
+  text-shadow: 2px 2px 0 #000;
+}
+
+/* repeating-linear-gradient(方向・角度,カラーストップ,カラーストップ); */
+.ts08{
+  background: repeating-linear-gradient(135deg,#fff,#fff 10px,#fef 10px,#fef 20px);
+}
+
+.ts09{
+  height: 100px;
+  background: linear-gradient(#9796f0,#fbc7d4);
+}
+.ts10{
+  height: 100px;
+  background: linear-gradient(90deg,#F3904F,#3B4371);
+}
+.ts11{
+  height: 100px;
+  background: linear-gradient(170deg,#22c1c3,#fdbb2d);
+}
+.ts12{
+  height: 100px;
+  background: radial-gradient(#ff6a00,#ee0979);
+}
+.ts13{
+  background: linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)),
+  url(letter.jpg);
+  max-width: 100%;
+  background-size: cover;
+}
