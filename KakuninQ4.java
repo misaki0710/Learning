@@ -1,9 +1,9 @@
 public class KakuninQ4{
 	public static void main(String[] args){
-		Cube2 c2 = new Cube2(2,3,4);
-		
-		System.out.println("haba = " + c2.width + " takasa = " + c2.height + " okuyuki = " + c2.depth);
-		System.out.println("menseki ha " + c2.getArea() + " desu");
-		System.out.println("taiseki ha " + c2.getVolume() + " desu");
+		Shain2 s2 = new Shain2(1,"eigyoubu","CBCjiro",200000);
+		System.out.println(s2.getShainBangou());
+		System.out.println(s2.getBusho());
+		System.out.println(s2.getNamae());
+		System.out.println(s2.getKihonkyu());
 	}
 }
